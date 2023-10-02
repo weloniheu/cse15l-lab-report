@@ -2,4 +2,4 @@
 The Lab Report
 
 Arguments with no commands 
-![Image](NoArgument.png)
+![Image](NoArguments.png)
