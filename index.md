@@ -12,7 +12,7 @@
 
 ![Image](No_Argument_ls.png)
 
-- "cat" was a little more interesting while it didn't write anything to the terminal and did create a new line it didn't have [user@sahara~]$ instead anything that I wrote afterwards would be repeated as though I had called the cat command on those statements. In order to leave I learned via google that ctrl-d would allow me to back track to once again show [user@sahara~]$
+- "cat" was a little more interesting while it didn't write anything to the terminal and did create a new line it didn't have [user@sahara~]$. Instead anything that I wrote afterwards would be repeated as though I had called the cat command on those statements. This included just pressing enter skipping two lines instead of one. In order to leave I learned via google that ctrl-d would allow me to back track to once again show [user@sahara~]$
 
 ![Image](No_Argument_cat.png)
 
