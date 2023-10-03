@@ -1,7 +1,7 @@
 
-####**The Lab Report**
+**####The Lab Report**
 
-######**The Commands without Arguments**
+**######The Commands without Arguments**
 - "cd" did nothing and only created a new line waiting for another command
 
 ![Image](No_Argument_cd.png)
@@ -17,7 +17,7 @@
 
 
 
-######**The Commands with the Directory**
+**#####The Commands with the Directory**
 
 - "cd" entered the directory that I wrote after it
 ![Image](Directory_cd.png)
@@ -28,13 +28,32 @@
 
 - "cat" wrote in the terminal somethat that suggest to me directorys cannot be copied into the terminal. most likely due the fact that, it could lead to significantly more information that was asked for.
 
-![Image](Directory_cat.png)
+![Image](Directory_cat_lecture1.png)
 
-- all of the commands when attempting to access the directory "messages" while not in "lecture1" all had slightly different but ultimately it wasn't something can could be viewed from [user@sahara~]$ if I wanted it to work I would need to cd lecture1, which would bring me to a [user@sahara ~lecture1]$ where I could then enter messages, using any of the commands tho cat also
+- all of the commands when attempting to access the directory "messages" while not in "lecture1" all had slightly different but ultimately it wasn't something can could be viewed from [user@sahara~]$ (see left) if I wanted it to work I would need to cd lecture1, which would bring me to a [user@sahara ~lecture1]$ (see right) where I could then enter messages, using any of the commands tho cat also
+
+![Image](Directory_All_messages_lecture1Closed.png) ![Image](Directory_All_messages_lecture1Open.png)
 
 
 
-######**The Commands with the Files**
+
+**#####The Commands with the Files**
+
+Being that there are no file in the base Workspace I needed to cd into Lecture1 to access the files to proper attempts the commands else it will say "no such directory or file" similar when we attempt to use commands on a directory that it couldn't access.
+
+![Images](File_All_Error.png)
+
+- "cd" command failed as this is a file and not a directory
+![Image](File_cd.png)
+
+
+- "ls" copied it's own name as it's the only item in that list
+![Image](File_ls.png) 
+
+- "cat" copied the contents of the file
+
+![Image](File_cat.png)
+
 
 
 
