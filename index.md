@@ -1,8 +1,15 @@
 
 The Lab Report
 
-Arguments with no commands 
+The commands without Arguments
+The first lines after the "[user@sahara~]$ cat" denoted by their lack of color represent what occurs if you type anything after typing in that prompt with out arguments, to exit said state requires 
 
-![Image](NoArguments.png)
+
+The commands with the directory
+
+
+The commands with the files
+
+
 
 
