@@ -1,8 +1,8 @@
 
-**<h3>The Lab Report**
+**The Lab Report**
 
 
-**<h4>The Commands without Arguments**
+**The Commands without Arguments**
 
 - "cd" did nothing and only created a new line waiting for another command
 
@@ -17,7 +17,7 @@
 ![Image](No_Argument_cat.png)
 
 
-**<h4>The Commands with the Directory**
+**The Commands with the Directory**
 
 - "cd" entered the directory that I wrote after it
   
@@ -38,7 +38,7 @@
 
 
 
-**<h4>The Commands with the Files**
+**The Commands with the Files**
 
 Being that there are no file in the base Workspace I needed to cd into Lecture1 to access the files to proper attempts the commands else it will say "no such directory or file" similar when we attempt to use commands on a directory that it couldn't access.
 
