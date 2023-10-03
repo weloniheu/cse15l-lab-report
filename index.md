@@ -2,7 +2,7 @@
 **<h3>The Lab Report**
 
 
-**The Commands without Arguments**
+**<h4>The Commands without Arguments**
 
 - "cd" did nothing and only created a new line waiting for another command
 
