@@ -1,6 +1,7 @@
 
 **The Lab Report**
 
+
 **The Commands without Arguments**
 
 - "cd" did nothing and only created a new line waiting for another command
@@ -14,8 +15,6 @@
 - "cat" was a little more interesting while it didn't write anything to the terminal and did create a new line it didn't have [user@sahara~]$ instead anything that I wrote afterwards would be repeated as though I had called the cat command on those statements. In order to leave I learned via google that ctrl-d would allow me to back track to once again show [user@sahara~]$
 
 ![Image](No_Argument_cat.png)
-
-
 
 
 **#####The Commands with the Directory**
@@ -36,7 +35,6 @@
 - all of the commands when attempting to access the directory "messages" while not in "lecture1" all had slightly different but ultimately it wasn't something can could be viewed from [user@sahara~]$ (see left) if I wanted it to work I would need to cd lecture1, which would bring me to a [user@sahara ~lecture1]$ (see right) where I could then enter messages, using any of the commands tho cat also
 
 ![Image](Directory_All_messages_lecture1Closed.png) ![Image](Directory_All_messages_lecture1Open.png)
-
 
 
 
