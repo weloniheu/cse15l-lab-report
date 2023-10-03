@@ -1,7 +1,8 @@
 
-**####The Lab Report**
+**The Lab Report**
 
-**######The Commands without Arguments**
+**The Commands without Arguments**
+
 - "cd" did nothing and only created a new line waiting for another command
 
 ![Image](No_Argument_cd.png)
@@ -20,10 +21,12 @@
 **#####The Commands with the Directory**
 
 - "cd" entered the directory that I wrote after it
+  
 ![Image](Directory_cd.png)
 
 
 - "ls" wrote down the name of files and directorys with in the choosen directory but only the names.
+  
 ![Image](Directory_ls_lecture1.png) 
 
 - "cat" wrote in the terminal somethat that suggest to me directorys cannot be copied into the terminal. most likely due the fact that, it could lead to significantly more information that was asked for.
@@ -44,10 +47,12 @@ Being that there are no file in the base Workspace I needed to cd into Lecture1 
 ![Images](File_All_Error.png)
 
 - "cd" command failed as this is a file and not a directory
+  
 ![Image](File_cd.png)
 
 
 - "ls" copied it's own name as it's the only item in that list
+  
 ![Image](File_ls.png) 
 
 - "cat" copied the contents of the file
