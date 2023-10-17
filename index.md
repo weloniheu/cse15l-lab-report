@@ -14,6 +14,8 @@
 
 - if you do "cd" while in working directory other than /home it returns you to know for edstem terminal
 
+  ![Image](No_Argument_cd_noHome.png)
+
 #### **Cd with a Directory**
 
 - "cd" entered the directory that I wrote after it
@@ -66,7 +68,7 @@ Being that there are no file in the base Workspace I needed to cd into Lecture1 
 
 <p align="center">
 
-### **The ls Command**
+### **The cat Command**
 
 <p aligh="left">
 
