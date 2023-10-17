@@ -50,7 +50,7 @@ Being that there are no file in the base Workspace I needed to cd into Lecture1 
 
 **ls with no arguments**
 
-- "ls" wrote in the terminal the only item in the workplace "lecture1" then created a new line waiting for another command
+- "ls" wrote in the terminal the only item in the workplace (/home) "lecture1" then created a new line waiting for another command if it was in another directory it would print out the names of those directories and files instead.
 
 ![Image](No_Argument_ls.png)
 
