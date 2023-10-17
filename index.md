@@ -13,26 +13,26 @@
 
   ![Image](No_Argument_cd_noHome.png)
 
-#### Cd with a Directory 
+  #### Cd with a Directory 
 
 - "cd" entered the directory that I wrote after it
   
   ![Image](Directory_cd.png)
 
-#### Cd with a File
-
-- "cd" command failed as this is a file and not a directory
-
-NOTE
+  ##### NOTE
 
 - all of the commands when attempting to access the directory "messages" while not in "lecture1" all had slightly different but ultimately it wasn't something can could be viewed from [user@sahara~]$ (see left) if I wanted it to work I would need to cd lecture1, which would bring me to a [user@sahara ~lecture1]$ (see right) where I could then enter messages, using any of the commands tho cat also
 
 ![Image](Directory_All_messages_lecture1Closed.png) ![Image](Directory_All_messages_lecture1Open.png)
 
+  #### Cd with a File
+
+- "cd" command failed as this is a file and not a directory
+
   
   ![Image](File_cd.png)
 
-##### NOTE
+  ##### NOTE
 
 Being that there are no file in the base Workspace I needed to cd into Lecture1 to access the files to proper attempts the commands else it will say "no such directory or file" similar when we attempt to use commands on a directory that it couldn't access. This holds true for all the commands used in this lab
 
