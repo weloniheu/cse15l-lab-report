@@ -1,5 +1,5 @@
 
-# The Lab Report 
+# The Lab Report 1
 
 ### The Cd Command
 
@@ -21,7 +21,7 @@
 
 ##### NOTE
 
-- all of the commands when attempting to access the directory "messages" while not in "lecture1" all had slightly different but ultimately it wasn't something can could be viewed from [user@sahara~]$ (see left) if I wanted it to work I would need to cd lecture1, which would bring me to a [user@sahara ~lecture1]$ (see right) where I could then enter messages, using any of the commands tho cat also
+- all of the commands when attempting to access the directory "messages" while not in "lecture1" resulted slightly different but ultimately it wasn't something can could be viewed from [user@sahara~]$ (see left) if I wanted it to work I would need to cd into a lecture1, which would bring me to a [user@sahara ~lecture1]$ (see right) where I could then enter messages, using any of the commands, though cat was still not accepted.
 
   ![Image](Directory_All_messages_lecture1Closed.png) ![Image](Directory_All_messages_lecture1Open.png)
 
