@@ -25,6 +25,7 @@
 
 ![Image](Directory_All_messages_lecture1Closed.png) ![Image](Directory_All_messages_lecture1Open.png)
 
+
 #### Cd with a File
 
 - "cd" command failed as this is a file and not a directory
@@ -41,7 +42,6 @@ Being that there are no file in the base Workspace I needed to cd into Lecture1 
 
 
 ### The ls Command
-
 
 
 #### ls with no arguments
@@ -61,6 +61,7 @@ Being that there are no file in the base Workspace I needed to cd into Lecture1 
 - "ls" copied it's own name as it's the only item in that list
   
 ![Image](File_ls.png)
+
 
 
 ### The cat Command
