@@ -1,6 +1,6 @@
 <p align="center">
 
-## **The Lab Report**
+# **The Lab Report**
 
 ### **The Cd Command**
 
