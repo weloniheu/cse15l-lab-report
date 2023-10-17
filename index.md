@@ -80,7 +80,7 @@ Being that there are no file in the base Workspace I needed to cd into Lecture1 
 
 #### **cat with a Directory**
 
-- "cat" wrote in the terminal somethat that suggest to me directorys cannot be copied into the terminal. most likely due the fact that, it could lead to significantly more information that was asked for.
+- "cat" wrote in the terminal "lecture1: is a directory" which just means you can't copy the context of a directory. This makes sense cause if it was able to cat, it would have to also look with in a directory to find files in it print out, I image there are too many edge cases to make it worth it. Although there maybe another command we have haven't encountered yet with that functionality.
 
 ![Image](Directory_cat_lecture1.png)
 
