@@ -1,7 +1,7 @@
 
-:-: # The Lab Report 
+# The Lab Report 
 
-:-: ### The Cd Command
+### The Cd Command
 
 
 #### Cd with no arugment
@@ -40,7 +40,7 @@ Being that there are no file in the base Workspace I needed to cd into Lecture1 
 
 
 
-:-: ### The ls Command
+### The ls Command
 
 
 
@@ -63,7 +63,7 @@ Being that there are no file in the base Workspace I needed to cd into Lecture1 
 ![Image](File_ls.png)
 
 
-:-: ### The cat Command
+### The cat Command
 
 
 #### cat with no arguments
