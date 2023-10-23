@@ -77,7 +77,7 @@ class StringServer {
   ![Images](NoWorky.png)
 
   #### NOTE
-      - it didn't work
+- it didn't work
 
 ### PART 3
 
