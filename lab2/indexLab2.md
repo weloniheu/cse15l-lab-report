@@ -1,7 +1,7 @@
 
-# The Lab Report 1
+## The Lab Report 2
 
-## PART 1
+### PART 1
 
 ``import java.io.IOException;
 import java.net.URI;
@@ -65,7 +65,7 @@ class StringServer {
   
   ![Image](Part1_2.png)
 
-## PART 2
+### PART 2
 
 
   ![Image](PrivateKeyOnComp.png)
@@ -79,7 +79,7 @@ class StringServer {
   #### NOTE
       - it didn't work
 
-## PART 3
+### PART 3
 
 - I learned a little more on how to move around items in github through git mv, push etc however it's quite difficult and I don't have it quite down yet.
 - I learned how to create a key and access the information for the key in my own computer and with in a remote computer but the means by which it functions still alludes me
