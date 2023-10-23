@@ -76,6 +76,9 @@ class StringServer {
 
   ![Images](NoWorky.png)
 
+  #### NOTE
+      - it didn't work
+
 ## PART 3
 
 - I learned a little more on how to move around items in github through git mv, push etc however it's quite difficult and I don't have it quite down yet.
