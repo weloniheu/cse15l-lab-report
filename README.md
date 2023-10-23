@@ -1,4 +1,7 @@
 # cse15l-lab-report
 
 
-Lab Report
+Lab Reports
+
+
+[Lab2](lab2/indexLab2.md)
