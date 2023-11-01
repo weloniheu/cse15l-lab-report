@@ -1,3 +1,5 @@
 
+### All labs for 15L
 
-[lab2](lab2/indexLab2.md)
+[Lab 1](lab1/Lab1.md)
+[lab 2](lab2/indexLab2.md)
