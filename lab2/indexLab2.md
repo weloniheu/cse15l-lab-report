@@ -50,20 +50,21 @@ class StringServer {
 
 #### First add-message
 
-- Method handleRequest(URI url) is called
-- the query arugment is called, the parameter is set to everything after "s=" which is added to the Stringer buffer, after num + ". " and before a next line string shortcut, the entire buffer is converted to a string and then is returned.
+  ![Image](Part1_1.png)
+
+- Method handleRequest(URI url) is called and since the irl.getPath() is "add-message" it enters that if statement where it then
+- the we "?" so it knows there's a query arugment, the parameter is set to everything after "s=" which is added to the Stringer buffer, after num + ". " and before a next line string shortcut, the entire buffer is converted to a string and then is returned.
 - num is incremented in after it's appended into the string buffer so it's increased for the next time. alternatively I could've started num at 0 and did ++num istead but num++ is what I'm more used to.
 
 
-  ![Image](Part1_1.png)
-
 #### Second add-message 
 
-- Similarly Method handleRequest(URI url) is called
+  ![Image](Part1_2.png)
+
+- Similarly Method handleRequest(URI url) is called and since the irl.getPath() is "add-message" it enters that if statement
 - Again the query arugment is called, the parameter is set to everything after "s=" which is added to the Stringer buffer, after num + ". " and before a next line string shortcut, the entire buffer is converted to a string and then is returned. Instead this time buffer already has from the previous query so it returns both the previous and new strings.
 - num is again incremented incase we wanted to do another /add-message?s="String"
   
-  ![Image](Part1_2.png)
 
 ### PART 2
 
