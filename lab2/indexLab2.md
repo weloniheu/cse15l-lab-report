@@ -80,14 +80,12 @@ class StringServer {
 
   ![Images](fixingMyIssue.png)
 
-#### NOTE
-    - it didn't work
 
 ### PART 3
 
 - I learned a little more on how to move around items in github through git mv, push etc however it's quite difficult and I don't have it quite down yet.
-- I learned how to create a key and access the information for the key in my own computer and with in a remote computer but the means by which it functions still alludes me
-- I learned that mkdir is very nice for creating directory and scp is a more advance variant of cp which is copy paste from what I understand
+- I learned how to create a key and access the information for the key in my own computer and with in a remote computer but ~~the means by which it functions still alludes me~~ I was able to fix it.
+- I learned that mkdir is very nice for creating directory and scp is a more advance variant of cp which is copy paste from what I understand, although the creation of a directory led me astray this time around.
 
 
 
