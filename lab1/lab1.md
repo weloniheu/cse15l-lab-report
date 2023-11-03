@@ -9,7 +9,7 @@
 - "cd" did nothing and only created a new line waiting for another command
 
 
-- if you do "cd" while in working directory other than /home it returns you to know for edstem terminal
+- if you do "cd" while in working directory other than /home it returns you to /home for edstem terminal
 
   ![Image](No_Argument_cd_noHome.png)
 
