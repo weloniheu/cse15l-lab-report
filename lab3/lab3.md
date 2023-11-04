@@ -138,7 +138,8 @@
       Maintain the discription of InPlace and flips the values
       2:
       - the for loop is changed from going for i < length to i < length/2
-      This ensures that values aren't look at more than once which would have resulted in the list being flipped back to the original orientation after passing the half way point which is not what we want.
+      This ensures that values aren't look at more than once which would have resulted in the list being 
+      flipped back to the original orientation after passing the half way point which is not what we want.
     ```
 
 ##### "reversed" Method:
