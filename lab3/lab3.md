@@ -3,7 +3,7 @@
 #### Part 1
 
 
-#### - A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+- A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 
     ```
     import static org.junit.Assert.*;
@@ -25,8 +25,8 @@
     }
   
     ```
-
-#### - An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+    
+- An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 
     ```
     import static org.junit.Assert.*;
@@ -48,11 +48,11 @@
     }
     ```
 
-#### - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+ - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
 
 
-#### - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+ - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 
     ```
     ///Broke Code
@@ -103,7 +103,7 @@
 
 - Briefly describe why the fix addresses the issue.
 
-#### "reverseInPlace" Method:
+##### "reverseInPlace" Method:
 
     ``` 
     Bug: 
@@ -127,7 +127,7 @@
   
     ```
 
-#### "reverseInPlace" Method Fixed:
+##### "reverseInPlace" Method Fixed:
 
     ```
     Bug Fixes:
@@ -141,7 +141,7 @@
       This ensures that values aren't look at more than once which would have resulted in the list being flipped back to the original orientation after passing the half way point which is not what we want.
     ```
 
-#### "reversed" Method:
+##### "reversed" Method:
 
     ``` 
     Bug: 
@@ -166,7 +166,7 @@
     
     ```
 
-#### "reversed" Method Fixed:
+##### "reversed" Method Fixed:
 
     ```
     Bugs Fixes:
