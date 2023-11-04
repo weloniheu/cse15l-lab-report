@@ -103,7 +103,7 @@
 
 - Briefly describe why the fix addresses the issue.
 
-##### "reverseInPlace" Method:
+#### "reverseInPlace" Method:
 
     ``` 
     Bug: 
@@ -127,7 +127,7 @@
   
     ```
 
-##### "reverseInPlace" Method Fixed:
+#### "reverseInPlace" Method Fixed:
 
     ```
     Bug Fixes:
@@ -142,7 +142,7 @@
       flipped back to the original orientation after passing the half way point which is not what we want.
     ```
 
-##### "reversed" Method:
+#### "reversed" Method:
 
     ``` 
     Bug: 
@@ -167,7 +167,7 @@
     
     ```
 
-##### "reversed" Method Fixed:
+#### "reversed" Method Fixed:
 
     ```
     Bugs Fixes:
