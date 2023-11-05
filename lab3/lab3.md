@@ -103,7 +103,7 @@
 
 - Briefly describe why the fix addresses the issue.
 
-#### "reverseInPlace" Method:
+##### "reverseInPlace" Method:
 
     ``` 
     Bug: 
@@ -127,7 +127,7 @@
   
     ```
 
-#### "reverseInPlace" Method Fixed:
+##### "reverseInPlace" Method Fixed:
 
     ```
     Bug Fixes:
@@ -142,7 +142,7 @@
       flipped back to the original orientation after passing the half way point which is not what we want.
     ```
 
-#### "reversed" Method:
+##### "reversed" Method:
 
     ``` 
     Bug: 
@@ -152,13 +152,13 @@
     Symptoms: 
     [1, 2, 3]
     for i = 0
-    it sets the value of A[0] to length-0-1 of the newArray or newArray[2], which are the values 0
+    it sets the value of A[0] to A.length-0-1 of the newArray or newArray[2], which are the values 0
     The A[0] is set to newArray[2]
     [0, 2, 3]
     
     then for i = 1
-    it sets the value of A[1] to length-1-1 of the newArray or newArray[1], which are the values 0
-    The A[0] is set to newArray[2]
+    it sets the value of A[1] to A.length-1-1 of the newArray or newArray[1], which are the values 0
+    The A[0] is set to newArray[2]n 
     [0, 0, 3]
     
     etc
@@ -167,7 +167,7 @@
     
     ```
 
-#### "reversed" Method Fixed:
+##### "reversed" Method Fixed:
 
     ```
     Bugs Fixes:
@@ -178,6 +178,59 @@
       - return newArray;
       Returns the newly created reversed copy of arr
     ```
+
+
+
+#### Part 2
+
+
+I asked ChatGPT  "Can you give me 4 grep commands in bash outside of the base grep command"
+
+ChatGPT replied 
+
+"Certainly! Here are four grep commands in Bash that utilize some of the extended features and options available outside of the basic grep command:"
+
+1. Using 'egrep' (Extended 'grep') to search for multople patterns:
+
+```egrep "pattern1|pattern2" filename.txt``` in bash
+
+This command uses 'egrep' to seach for lines containing either "pattern1" or "pattern2" in the file 'filename.txt'. The '|' (pipe) character functions as a logical OR. 
+
+2. Using grep with Perl-compatible regular expressions (PCRE) for advanced pattern matching:
+
+```grep -P "pattern\d{2,4}" filename.txt``` in bash
+
+This command employs the '-P' option to use Perl-compatible regular expressions. It searches for lines containing a pattern with two to four digits in the file 'filename.txt.'
+
+3. Using 'grep' with word boundaries for exact word matching 
+
+```grep -w "exact_word" filename.txt``` in bash
+
+This command utilizes the '-w' option to match the word "exact_word" exactly, ignoring partial matches or substrings in the file 'filename.txt'.
+
+4. Using grep with the context option to display surrounding lines:
+
+```grep -C 2 "search_term" filename.txt``` in bash
+
+This command uses the '-C' option to display two lines of context (one line before and one line after) for each occurrence of "search_term" in the file 'filename.txt'.
+
+These 'grep' commands demonstrate some advanced features and options that can be used to enhance your text pattern searching and matching capabilities. You can adapt these commands to suit your specific search requirements
+
+I made note of the slight difference between egrep as the one that was given to me and grep so I asked ChatGPT "what is the difference between egrep and grep"
+
+Which it replied giving a fairly long explination but the summary was.
+
+"the main difference is that 'egrep' supports Extended Regular Expressions, making it easier to write and read regular expressions that include special characters. 'grep', on the other hand, uses Basic Regular Expressions by default, so you would need to escape these special characters if you want to use them in your regular expressions. You can also enable Extended Regular Expressions in 'grep' by using the '-E' option, like 'grep -E "pattern" filename.txt', which would make it function similarly to 'egrep'."
+
+
+Example 1:
+
+
+
+
+
+
+
 
 
 
