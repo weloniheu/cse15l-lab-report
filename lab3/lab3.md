@@ -190,17 +190,17 @@ ChatGPT replied
 
 "Certainly! Here are four grep commands in Bash that utilize some of the extended features and options available outside of the basic grep command:"
 
-1. Using 'egrep' (Extended 'grep') to search for multople patterns:
+1. Using 'egrep' (Extended 'grep') to search for multiple patterns:
 
 ```egrep "pattern1|pattern2" filename.txt``` in bash
 
 This command uses 'egrep' to seach for lines containing either "pattern1" or "pattern2" in the file 'filename.txt'. The '|' (pipe) character functions as a logical OR. 
 
-2. Using grep with Perl-compatible regular expressions (PCRE) for advanced pattern matching:
+2. Using grep with the -B and -A options (Before and After Context Lines):
 
-```grep -P "pattern\d{2,4}" filename.txt``` in bash
+```grep -B 2 -A 2 "search_term" filename.txt``` in bash
 
-This command employs the '-P' option to use Perl-compatible regular expressions. It searches for lines containing a pattern with two to four digits in the file 'filename.txt.'
+will search for "search_term" in the file 'filename.txt' and show two lines before and two lines after each match, providing a more comprehensive view of the context in which the search term appears in the file. You can adjust the number of context lines as needed by changing the values for '-B' and '-A'.
 
 3. Using 'grep' with word boundaries for exact word matching 
 
@@ -216,16 +216,32 @@ This command uses the '-C' option to display two lines of context (one line befo
 
 These 'grep' commands demonstrate some advanced features and options that can be used to enhance your text pattern searching and matching capabilities. You can adapt these commands to suit your specific search requirements
 
-I made note of the slight difference between egrep as the one that was given to me and grep so I asked ChatGPT "what is the difference between egrep and grep"
+
+I made note of the slight difference between egrep, as the one that was given to me, and grep so I asked ChatGPT "what is the difference between egrep and grep"
 
 Which it replied giving a fairly long explination but the summary was.
 
 "the main difference is that 'egrep' supports Extended Regular Expressions, making it easier to write and read regular expressions that include special characters. 'grep', on the other hand, uses Basic Regular Expressions by default, so you would need to escape these special characters if you want to use them in your regular expressions. You can also enable Extended Regular Expressions in 'grep' by using the '-E' option, like 'grep -E "pattern" filename.txt', which would make it function similarly to 'egrep'."
 
 
-Example 1:
 
 
+Example 1: egrep
+
+
+Being able to look for a line where it potentially has a pattern "or" another pattern or maybe even a pattern "and" another pattern. With a lot of customation for the expression made can allow for expanded searches or very particular searches with some variance.
+
+Example 2: grep -B and -A
+
+Being able to look at context before or after could be useful when you want to know a little more about the line that grep pulls up.
+
+Example 3: grep -w
+
+Finding the exact word you are looking for is another way of narrowing down the search. If you have a lot of file to look through and you want to look up a relatively short word this ensures it doesn't find overlaps that aren't that word specifically ie. bar could potentially be a part of other words, but with -w you'd only get bar.
+
+Example 4: grep -C
+
+Like -B and -A but it's a short hand to incompass both so it's just faster to type but provides the same benefits.
 
 
 
