@@ -4,7 +4,7 @@
 
 
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
-
+ 
 
     ```cpp
     import static org.junit.Assert.*;
@@ -26,10 +26,10 @@
     }
   
     ```
-
+  
     
 - An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-
+  
 
     ```cpp
     import static org.junit.Assert.*;
@@ -51,19 +51,19 @@
     }
     ```
 
-
+  
  - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
-
+  
    ![Image](WrongTest.png)
 
-
+  
    ![Image](CorrectTestWrongCode.png)
-
+  
 
 
  - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-
+  
 
     ```cpp
     ///Broke Code
@@ -86,7 +86,7 @@
       }
     }
     ```
-
+  
   
     ```cpp
     //fixed Code
@@ -112,13 +112,13 @@
     }
 
     ```
-    
+      
 
 - Briefly describe why the fix addresses the issue.
 
-
+  
 ##### "reverseInPlace" Method:
-
+  
     ``` 
     Bug: 
     1. Values in the front are written and lost
@@ -141,9 +141,9 @@
   
     ```
 
-
+  
 ##### "reverseInPlace" Method Fixed:
-
+  
     ```
     Bug Fixes:
       1:
@@ -156,10 +156,10 @@
       This ensures that values aren't look at more than once which would have resulted in the list being 
       flipped back to the original orientation after passing the half way point which is not what we want.
     ```
-
+  
 
 ##### "reversed" Method:
-
+  
     ``` 
     Bug: 
       1. Sets the value of arr[] to the values of newArray[] which is an empty array
@@ -182,11 +182,11 @@
     Doesn't reverse but rather deletes the original array which in turn returns an empty array.
     
     ```
-
+  
 
 ##### "reversed" Method Fixed:
 
-
+  
     ```
     Bugs Fixes:
       1:
@@ -196,13 +196,13 @@
       - return newArray;
       Returns the newly created reversed copy of arr
     ```
-
-
-
+  
+  
+  
 
 #### Part 2
 
-
+  
 
 I asked ChatGPT  "Can you give me 4 grep commands in bash outside of the base grep command"
 
@@ -216,19 +216,21 @@ ChatGPT replied
 
 This command uses 'egrep' to seach for lines containing either "pattern1" or "pattern2" in the file 'filename.txt'. The pipe character functions as a logical OR. 
 
-
+  
 
 NOTE: I asked ChatGTP later "how to do 'and' in grep" to which it responded.
 
 ```grep -E ".*pattern1.*pattern2.*" filename.txt```
 
-
+  
 
 2. Using grep with the -B and -A options (Before and After Context Lines):
 
 ```grep -B 2 -A 2 "search_term" filename.txt``` in bash
 
 will search for "search_term" in the file 'filename.txt' and show two lines before and two lines after each match, providing a more comprehensive view of the context in which the search term appears in the file. You can adjust the number of context lines as needed by changing the values for '-B' and '-A'.
+
+  
 
 3. Using 'grep' with word boundaries for exact word matching
    
@@ -238,34 +240,35 @@ will search for "search_term" in the file 'filename.txt' and show two lines befo
 
 This command utilizes the '-w' option to match the word "exact_word" exactly, ignoring partial matches or substrings in the file 'filename.txt'.
 
+  
 4. Using grep with the context option to display surrounding lines:
    
 
 ```grep -C 2 "search_term" filename.txt``` in bash
 
-
+  
 This command uses the '-C' option to display two lines of context (one line before and one line after) for each occurrence of "search_term" in the file 'filename.txt'.
 
-
+  
 These 'grep' commands demonstrate some advanced features and options that can be used to enhance your text pattern searching and matching capabilities. You can adapt these commands to suit your specific search requirements
 
-
+  
 
 I made note of the slight difference between egrep, as the one that was given to me, and grep so I asked ChatGPT "what is the difference between egrep and grep"
 
-
+  
 Which it replied giving a fairly long explination but the summary was.
 
-
+  
 "the main difference is that 'egrep' supports Extended Regular Expressions, making it easier to write and read regular expressions that include special characters. 'grep', on the other hand, uses Basic Regular Expressions by default, so you would need to escape these special characters if you want to use them in your regular expressions. You can also enable Extended Regular Expressions in 'grep' by using the '-E' option, like 'grep -E "pattern" filename.txt', which would make it function similarly to 'egrep'."
 
-
-
-
+  
+  
+  
 Example 1: egrep
-
+  
 'or' input/output
-
+  
 ```
 Welo@LAPTOP-4LNG7MDC MINGW64 ~/IdeaProjects/Lab415l/docsearch/technical (main)
 $ egrep "falling|jumping" 911report/*.txt
@@ -290,10 +293,10 @@ biomed/gb-2002-3-11-research0062.txt:        points falling outside the 2 SD lim
 biomed/gb-2002-3-12-research0079.txt:          interval not falling into one of these categories was
 biomed/gb-2002-3-6-research0029.txt:          alignments display multiple splicing anomalies, falling
 ```
-
-
+  
+  
 'and' input/output
-
+  
 ```
 Welo@LAPTOP-4LNG7MDC MINGW64 ~/IdeaProjects/Lab415l/docsearch/technical (main)
 $ egrep ".*the.*fall." 911report/*.txt
@@ -323,14 +326,14 @@ $ egrep ".*the.*fall." 911report/*.txt
 911report/chapter-5.txt:                when Yousef was receiving explosives training in Afghanistan. During the fall of
 ...continues a little more
 ```
-
+  
 This command, egrep, allows a lot of customation options for precise and/or versitile text searches. It supports searching for expanded patterns or tailoring queries for a wide range of searchs.
-
-
-
+  
+  
+  
 
 Example 2: grep -B and -A
-
+  
 ```
 Welo@LAPTOP-4LNG7MDC MINGW64 ~/IdeaProjects/Lab415l/docsearch/technical (main)
 $ grep -B 2 -A 2 "bro" 911report/*.txt
@@ -351,8 +354,8 @@ entative at the check-in counter. He did so because one of the brothers did not 
 911report/chapter-1.txt-    All five hijackers passed through the Main Terminal's west security screening checkpoint; United Airlines, which was the responsible air carrier, had contracted out the work to Argenbright Security.
 --
 ...Continues more
-```
-
+``` 
+  
 grep with just -B
 ```
 Welo@LAPTOP-4LNG7MDC MINGW64 ~/IdeaProjects/Lab415l/docsearch/technical (main)
@@ -385,14 +388,14 @@ biomed/1471-2105-3-2.txt:            structure information. The PhyloBrowser pag
 --
 ...Continues a lot more
 ```
-
+  
 It shows context before, -B, and/or after, -A, providing potentially useful information around the matched lines.
 
-
-
-
+  
+  
+  
 Example 3: grep -w
-
+  
 ```
 Welo@LAPTOP-4LNG7MDC MINGW64 ~/IdeaProjects/Lab415l/docsearch/technical (main)
 $ grep -w "fall" biomed/*.txt
@@ -459,14 +462,14 @@ biomed/ar795.txt:        administered as a single bolus progressively falls. The
 biomed/bcr570.txt:        controls had the A2/A2 genotype, which falls well within
 ...continues for a while
 ```
-
+  
 It's useful when searching through a lot of files to locate a specific, short word, so that only the exact word is returned as a match, nothing partial nor fragmented words.
-
-
-
+  
+  
+  
 
 Example 4: grep -C
-
+  
 ```
 Welo@LAPTOP-4LNG7MDC MINGW64 ~/IdeaProjects/Lab415l/docsearch/technical (main)
 $ grep -C 2  "falling" 911report/*.txt
@@ -496,8 +499,8 @@ $ grep -C 2  "falling" 911report/*.txt
 --
 ...continues for a while
 ```
-
-
+  
+  
 ```
 Welo@LAPTOP-4LNG7MDC MINGW64 ~/IdeaProjects/Lab415l/docsearch/technical (main)
 $ grep -C 2  "falling" biomed/*.txt
@@ -539,8 +542,8 @@ biomed/1471-2202-3-5.txt-          circle describes the mean peak time for each 
 --
 ...continues for a while
 ```
-
-
+  
+  
 Like -B and -A but it's a short hand to incompass both so it's just faster to type but provides the same benefits of providing potentially useful information surrounding the matched lines.
 
 
