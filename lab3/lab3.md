@@ -265,7 +265,7 @@ Which it replied giving a fairly long explination but the summary was.
   
   
   
-Example 1: egrep
+##### Example 1: egrep
   
 'or' input/output
   
@@ -325,7 +325,7 @@ This command, egrep, allows a lot of customation options for precise and/or vers
   
   
 
-Example 2: grep -B and -A
+##### Example 2: grep -B and -A
   
 ```
 Welo@LAPTOP-4LNG7MDC MINGW64 ~/IdeaProjects/Lab415l/docsearch/technical (main)
@@ -383,7 +383,7 @@ It shows context before, -B, and/or after, -A, providing potentially useful info
   
   
   
-Example 3: grep -w
+##### Example 3: grep -w
   
 ```
 Welo@LAPTOP-4LNG7MDC MINGW64 ~/IdeaProjects/Lab415l/docsearch/technical (main)
@@ -432,7 +432,7 @@ It's useful when searching through a lot of files to locate a specific, short wo
   
   
 
-Example 4: grep -C
+##### Example 4: grep -C
   
 ```
 Welo@LAPTOP-4LNG7MDC MINGW64 ~/IdeaProjects/Lab415l/docsearch/technical (main)
