@@ -50,8 +50,9 @@
 
  - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
-   !Image(WrongTest.png)
+   ![Image](WrongTest.png)
 
+   ![Image](CorrectTestWrongCode.png)
 
 
  - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
@@ -230,18 +231,34 @@ Which it replied giving a fairly long explination but the summary was.
 
 Example 1: egrep
 
+![image](egrep_911.png)
+
+![image](egrep_Biomed.png)
+
 
 Being able to look for a line where it potentially has a pattern "or" another pattern or maybe even a pattern "and" another pattern. With a lot of customation for the expression made can allow for expanded searches or very particular searches with some variance.
 
 Example 2: grep -B and -A
 
+![Image](grep-B-A_911)
+
+![Image](grep-B_bio.png)
+
 Being able to look at context before or after could be useful when you want to know a little more about the line that grep pulls up.
 
 Example 3: grep -w
 
+![image](grep-w_911.png)
+
+![image](grep-w_biomed.png)
+
 Finding the exact word you are looking for is another way of narrowing down the search. If you have a lot of file to look through and you want to look up a relatively short word this ensures it doesn't find overlaps that aren't that word specifically ie. bar could potentially be a part of other words, but with -w you'd only get bar.
 
 Example 4: grep -C
+
+![Image](grep-C_911)
+
+![Image](grep-C_biomed.png)
 
 Like -B and -A but it's a short hand to incompass both so it's just faster to type but provides the same benefits.
 
