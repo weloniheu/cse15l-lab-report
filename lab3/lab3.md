@@ -5,7 +5,7 @@
 
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 
-    ```
+    ```cpp
     import static org.junit.Assert.*;
     import org.junit.*;
     
@@ -28,7 +28,7 @@
     
 - An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 
-    ```
+    ```cpp
     import static org.junit.Assert.*;
     import org.junit.*;
   
@@ -57,7 +57,7 @@
 
  - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 
-    ```
+    ```cpp
     ///Broke Code
     public class ArrayExamples {
 
@@ -79,7 +79,7 @@
     }
     ```
   
-    ```
+    ```cpp
     //fixed Code
     public class ArrayExamples {
   
