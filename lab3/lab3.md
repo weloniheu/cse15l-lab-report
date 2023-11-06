@@ -256,7 +256,7 @@ Finding the exact word you are looking for is another way of narrowing down the 
 
 Example 4: grep -C
 
-![Image](grep-C_911)
+![Image](grep-C_911.png)
 
 ![Image](grep-C_biomed.png)
 
