@@ -197,7 +197,8 @@ ChatGPT replied
 
 ```egrep "pattern1|pattern2" filename.txt``` in bash
 
-NOTE: I asked ChatGTP later "how to do 'and' in grep" to which is responded 
+NOTE: I asked ChatGTP later "how to do 'and' in grep" to which is responded.
+
 ```grep -E ".*pattern1.*pattern2.*" filename.txt```
 
 This command uses 'egrep' to seach for lines containing either "pattern1" or "pattern2" in the file 'filename.txt'. The '|' (pipe) character functions as a logical OR. 
