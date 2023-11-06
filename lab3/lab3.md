@@ -5,6 +5,7 @@
 
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 
+
     ```cpp
     import static org.junit.Assert.*;
     import org.junit.*;
@@ -25,8 +26,10 @@
     }
   
     ```
+
     
 - An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+
 
     ```cpp
     import static org.junit.Assert.*;
@@ -48,14 +51,19 @@
     }
     ```
 
+
  - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
+
    ![Image](WrongTest.png)
+
 
    ![Image](CorrectTestWrongCode.png)
 
 
+
  - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+
 
     ```cpp
     ///Broke Code
@@ -78,6 +86,7 @@
       }
     }
     ```
+
   
     ```cpp
     //fixed Code
@@ -103,8 +112,10 @@
     }
 
     ```
+    
 
 - Briefly describe why the fix addresses the issue.
+
 
 ##### "reverseInPlace" Method:
 
@@ -130,6 +141,7 @@
   
     ```
 
+
 ##### "reverseInPlace" Method Fixed:
 
     ```
@@ -144,6 +156,7 @@
       This ensures that values aren't look at more than once which would have resulted in the list being 
       flipped back to the original orientation after passing the half way point which is not what we want.
     ```
+
 
 ##### "reversed" Method:
 
@@ -170,7 +183,9 @@
     
     ```
 
+
 ##### "reversed" Method Fixed:
+
 
     ```
     Bugs Fixes:
@@ -184,7 +199,9 @@
 
 
 
+
 #### Part 2
+
 
 
 I asked ChatGPT  "Can you give me 4 grep commands in bash outside of the base grep command"
@@ -199,6 +216,8 @@ ChatGPT replied
 
 This command uses 'egrep' to seach for lines containing either "pattern1" or "pattern2" in the file 'filename.txt'. The pipe character functions as a logical OR. 
 
+
+
 NOTE: I asked ChatGTP later "how to do 'and' in grep" to which it responded.
 
 ```grep -E ".*pattern1.*pattern2.*" filename.txt```
@@ -211,24 +230,32 @@ NOTE: I asked ChatGTP later "how to do 'and' in grep" to which it responded.
 
 will search for "search_term" in the file 'filename.txt' and show two lines before and two lines after each match, providing a more comprehensive view of the context in which the search term appears in the file. You can adjust the number of context lines as needed by changing the values for '-B' and '-A'.
 
-3. Using 'grep' with word boundaries for exact word matching 
+3. Using 'grep' with word boundaries for exact word matching
+   
 
 ```grep -w "exact_word" filename.txt``` in bash
+
 
 This command utilizes the '-w' option to match the word "exact_word" exactly, ignoring partial matches or substrings in the file 'filename.txt'.
 
 4. Using grep with the context option to display surrounding lines:
+   
 
 ```grep -C 2 "search_term" filename.txt``` in bash
 
+
 This command uses the '-C' option to display two lines of context (one line before and one line after) for each occurrence of "search_term" in the file 'filename.txt'.
+
 
 These 'grep' commands demonstrate some advanced features and options that can be used to enhance your text pattern searching and matching capabilities. You can adapt these commands to suit your specific search requirements
 
 
+
 I made note of the slight difference between egrep, as the one that was given to me, and grep so I asked ChatGPT "what is the difference between egrep and grep"
 
+
 Which it replied giving a fairly long explination but the summary was.
+
 
 "the main difference is that 'egrep' supports Extended Regular Expressions, making it easier to write and read regular expressions that include special characters. 'grep', on the other hand, uses Basic Regular Expressions by default, so you would need to escape these special characters if you want to use them in your regular expressions. You can also enable Extended Regular Expressions in 'grep' by using the '-E' option, like 'grep -E "pattern" filename.txt', which would make it function similarly to 'egrep'."
 
@@ -297,8 +324,9 @@ $ egrep ".*the.*fall." 911report/*.txt
 ...continues a little more
 ```
 
-
 This command, egrep, allows a lot of customation options for precise and/or versitile text searches. It supports searching for expanded patterns or tailoring queries for a wide range of searchs.
+
+
 
 
 Example 2: grep -B and -A
@@ -359,6 +387,8 @@ biomed/1471-2105-3-2.txt:            structure information. The PhyloBrowser pag
 ```
 
 It shows context before, -B, and/or after, -A, providing potentially useful information around the matched lines.
+
+
 
 
 Example 3: grep -w
@@ -431,6 +461,9 @@ biomed/bcr570.txt:        controls had the A2/A2 genotype, which falls well with
 ```
 
 It's useful when searching through a lot of files to locate a specific, short word, so that only the exact word is returned as a match, nothing partial nor fragmented words.
+
+
+
 
 Example 4: grep -C
 
