@@ -317,13 +317,6 @@ $ egrep ".*the.*fall." 911report/*.txt
 911report/chapter-13.4.txt:                there is evidence that al Qaeda experienced funding shortfalls as part of the
 911report/chapter-13.5.txt:                killed below the impact zone, either by falling debris, by the fireballs that
 911report/chapter-13.5.txt:                biological release or the use of conventional weapons falls to the NYPD. Dealing
-911report/chapter-2.txt:            Bin Ladin Moves to Sudan By the fall of 1989, Bin Ladin had sufficient stature among
-911report/chapter-2.txt:                traveled to Iran to receive training in explosives. In the fall of 1993, another
-911report/chapter-3.txt:                that the rise and fall of intelligence budgets are tied directly to trends in
-911report/chapter-3.txt:            By the fall of 1997, the Bin Ladin unit had roughed out a plan for these Afghan
-911report/chapter-3.txt:                complete rehearsals in the United States during the fall of 1997.
-911report/chapter-3.txt:                threat posed by al Qaeda, either in 1998 or later. In the late summer and fall of
-911report/chapter-5.txt:                when Yousef was receiving explosives training in Afghanistan. During the fall of
 ...continues a little more
 ```
   
@@ -382,10 +375,6 @@ biomed/1471-2105-3-2.txt-            through the phylogenetic data, and how to r
 biomed/1471-2105-3-2.txt-            information using this system.
 biomed/1471-2105-3-2.txt:            The PhyloBrowser uses three frames (Figure 4and
 --
-biomed/1471-2105-3-2.txt-            results page, as described in the previous section, and
-biomed/1471-2105-3-2.txt-            allow the user to view the available sequence and
-biomed/1471-2105-3-2.txt:            structure information. The PhyloBrowser page (H-4B.3)
---
 ...Continues a lot more
 ```
   
@@ -414,20 +403,6 @@ biomed/1471-2121-2-6.txt:        for the protein levels to fall [ 24]. Nonethele
 biomed/1471-2121-3-18.txt:        pathways fall into two major categories, those primarily
 biomed/1471-2121-3-19.txt:        to fall [ 34 ] and the cell's geometrical changes would
 biomed/1471-2121-4-6.txt:        associated with the cytoskeleton but may fall below the
-biomed/1471-213X-3-7.txt:        fall, however, low temperatures and short days result in
-biomed/1471-2148-1-1.txt:          retrotransposons from insects that fall in the T3-
-biomed/1471-2148-1-4.txt:          fall significantly outside of the well-defined clade
-biomed/1471-2164-2-1.txt:        identified, which fall into the broad categories of
-biomed/1471-2164-2-1.txt:          (12) fall into the 10 3to 10 4bp bin size. Only 5 introns
-biomed/1471-2164-2-1.txt:          lie outside this range: Three of these fall into the 10
-biomed/1471-2164-2-2.txt:        motor domain [ 25]. Not all kinesins fall into one of the
-biomed/1471-2164-2-2.txt:        revealed that there are Arabidopsis kinesins that fall into
-biomed/1471-2164-2-2.txt:        do not fall into any family and there are some subfamilies
-biomed/1471-2164-2-2.txt:          However, several Arabidopsis kinesins do not fall into
-biomed/1471-2164-2-2.txt:          AtT9N14.6) having an internal motor which fall into the
-biomed/1471-2164-2-2.txt:          other four kinesins with N-terminal motors that fall into
-biomed/1471-2164-2-2.txt:          Arabidopsis kinesins fall into a group with Kip3
-biomed/1471-2164-2-2.txt:          major subgroup in which they fall. Since there are many
 ...continues for a while
 ```
 
@@ -449,17 +424,6 @@ biomed/1471-2288-3-9.txt:            imply that the corrected value certainly fa
 biomed/1471-2288-3-9.txt:            probability mass falls in the range 260,000 to 380,000.
 biomed/1471-2350-4-4.txt:          deletion falls into positions 908 and 909 of the NCBI
 biomed/1471-2377-3-4.txt:            Because blood pressure typically falls during the first
-biomed/1472-6785-2-6.txt:          India, Dehradun, it falls under 6B Central pleateau
-biomed/1472-6785-2-7.txt:          incubate inoculi falls within the temperature optima of
-biomed/1472-6807-2-3.txt:            several cases where the alignment falls into the
-biomed/1472-6807-2-9.txt:        category falls a little short of 300, since the residues
-biomed/1472-684X-1-5.txt:          falls posteriorly within the orbital socket [ 99 ] . As
-biomed/1472-6963-3-1.txt:          noncitizen who falls into one of the following
-biomed/1475-2832-1-1.txt:        prevention of falls.
-biomed/1475-925X-2-6.txt:        produced by a TMS coil falls off rapidly with depth (a
-biomed/1475-925X-2-6.txt:          r ), that falls off more smoothly
-biomed/ar795.txt:        administered as a single bolus progressively falls. These
-biomed/bcr570.txt:        controls had the A2/A2 genotype, which falls well within
 ...continues for a while
 ```
   
@@ -491,12 +455,6 @@ $ grep -C 2  "falling" 911report/*.txt
 911report/chapter-13.5.txt-                exploded into the lobby, or by being trapped in an elevator. Individuals below the
 911report/chapter-13.5.txt-                impact zone may have been killed for the same reasons. Individuals may also have
 --
-911report/chapter-7.txt-                sympathetic to those extremist views. During a post-9/11 search of his possessions,
-911report/chapter-7.txt-                the FBI found a notebook (belonging to someone else) with references to planes
-911report/chapter-7.txt:                falling from the sky, mass killing, and hijacking. Further, when detained as a
-911report/chapter-7.txt-                material witness following the 9/11 attacks, Abdullah expressed hatred for the U.S.
-911report/chapter-7.txt-                government and "stated that the U.S. brought 'this' on themselves."
---
 ...continues for a while
 ```
   
@@ -521,24 +479,6 @@ biomed/1471-2164-3-19.txt-        distributions (Figure 1aand 1b). Test signals 
 biomed/1471-2164-3-19.txt:        and 2 falling within the overlap region cannot easily be
 biomed/1471-2164-3-19.txt-        categorized as either present or absent and calculating
 biomed/1471-2164-3-19.txt-        ratios may lead to the identification of false positives
---
-biomed/1471-2164-3-32.txt-          for a particular pair of Pfam models are positively
-biomed/1471-2164-3-32.txt-          correlated, an increase in PCC2 cutoff should result in a
-biomed/1471-2164-3-32.txt:          greater likelihood of PCC1 falling above 0.5, i.e. EF
-biomed/1471-2164-3-32.txt-          should increase. We calculated a series of EFs with the
-biomed/1471-2164-3-32.txt-          PCC2 cutoff increasing from 0 to 1. EF stayed around 1
---
-biomed/1471-2164-3-4.txt-        will fall close to one of the corners; conversely datasets
-biomed/1471-2164-3-4.txt-        containing little phylogenetic information will mainly
-biomed/1471-2164-3-4.txt:        result in vectors falling into the center of the triangle.
-biomed/1471-2164-3-4.txt-        Here we explore the application of this and similar
-biomed/1471-2164-3-4.txt-        approaches in comparative genome analyses. In particular,
---
-biomed/1471-2202-3-5.txt-          individual record. Thus, the points that fall on the
-biomed/1471-2202-3-5.txt-          diameter of the circle are precisely consistent from day
-biomed/1471-2202-3-5.txt:          to day, while those falling closer to the origin indicate
-biomed/1471-2202-3-5.txt-          greater variability. The position of the point within the
-biomed/1471-2202-3-5.txt-          circle describes the mean peak time for each specimen. In
 --
 ...continues for a while
 ```
