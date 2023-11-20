@@ -1,32 +1,32 @@
-### The Lab Report 4
+## The Lab Report 4
 
-#### Procedure
+### Procedure
 
-##### Log into ieng6
+#### 4. Log into ieng6
 
-To do this I typed 
+To do this I typed <br>
 ```ssh cs15lfa23ef@ieng6.ucsd.edu<enter>```
 
 ![image](https://github.com/weloniheu/cse15l-lab-report/assets/115903567/b7fed2ec-b571-4d0e-934a-1213dfc43325)
 
 <br><br>
-##### Clone your fork of the repository from your Github account (using the SSH URL)
+#### 5. Clone your fork of the repository from your Github account (using the SSH URL)
 <br>
 To do this I clicked the copy button in github for the ssh link.
 
 ![image](https://github.com/weloniheu/cse15l-lab-report/assets/115903567/486a988e-9545-4020-a028-3ed45d0ab12a)
 
 <br><br>
-I think pasted the ssh link into the with git clone.
+I think pasted the ssh link into the with git clone.<br>
 ```git clone git@github.com:weloniheu/lab7.git<enter>```
 
 ![image](https://github.com/weloniheu/cse15l-lab-report/assets/115903567/db4ab062-bcab-425b-be1e-8783eb70ada3)
 
 <br><br>
-##### Run the tests, demonstrating that they fail
+#### 6. Run the tests, demonstrating that they fail
 
 
-To do this ls to make sure I had knew which was the bash file for lab7 and then ran with it with bash.
+To do this ls to make sure I had knew which was the bash file for lab7 and then ran with it with bash.<br>
 ```ls<enter>```
 ```bash test.sh<enter>```
 
@@ -34,10 +34,10 @@ To do this ls to make sure I had knew which was the bash file for lab7 and then 
 
 <br><br><br>
 
-##### Edit the code file to fix the failing test
+#### 7. Edit the code file to fix the failing test
 <br>
 
-To do this I first needed to enter the code which can be done with the program **vim** that we learned in class. I also remembered that I could use tab to finish the rest of existing files to quicken the process.
+To do this I first needed to enter the code which can be done with the program **vim** that we learned in class. I also remembered that I could use tab to finish the rest of existing files to quicken the process.<br>
 ```vim Lis<tab>.j<tab><enter>```
 
 ![image](https://github.com/weloniheu/cse15l-lab-report/assets/115903567/db54b8aa-1a2d-49c3-85b8-9a7827c7aa8c)
@@ -45,11 +45,11 @@ To do this I first needed to enter the code which can be done with the program *
 
 <br><br>
 To edit the text, while still in normal mode I pressed shift G to move to the end of the file and then k to move up towards the line that needed to be checked.
-```<shiftG><k><k><k><k><k><k><l><l><l><l><l><l><l><l><l><l><l>```
-or
+```<shiftG><k><k><k><k><k><k><l><l><l><l><l><l><l><l><l><l><l>``` <br>
+or <br>
 ```<movetoend><up><up><up><up><up><up><right><right><right><right><right><right><right><right><right><right><right>```
 
-once the cursor was where I wanted i pressed r and then changed the 1 in index1 to 2 so that it becomes index2.
+once the cursor was where I wanted i pressed r and then "replaced" the '1' in index1 to '2' so that it becomes index2. <br>
 
 ```<r><enter><2><esc>```
 
@@ -57,15 +57,15 @@ once the cursor was where I wanted i pressed r and then changed the 1 in index1 
 
 <br><br>
 
-then I exited with the save and quit command
+then I exited with the save and quit command <br>
 
 ```:wq<enter>```
-<br><br><br>
+<br><br>
 
-##### Run the tests, demonstrating that they now succeed
+#### 8. Run the tests, demonstrating that they now succeed
 
 <br>
-As I already ran the bash test.sh earlier I pressed up arrow to get there, however as I entered vim a number of times the numbers represent a higher amount if you look at the number$:. Also interesting enough vim ListExamples.java is considered different commands from vim ListExamples.java<space> for the purposes of the shells list of previous commands, so I needed to press up twice to get back to my test.sh command from earlier. 
+As I already ran the bash test.sh earlier I pressed up arrow to get there, however as I entered vim a number of times the numbers represent a higher amount if you look at the number$:. Also interesting enough vim ListExamples.java is considered different commands from vim ListExamples.java<space> for the purposes of the shells list of previous commands, so I needed to press up twice to get back to my test.sh command from earlier. <br>
 
 ```<up_arrow><up_arrow><enter>```
 
@@ -73,14 +73,14 @@ Ie vim ListExamples.java<space> -> vim ListExamples.java -> bash test.sh
 
 ![image](https://github.com/weloniheu/cse15l-lab-report/assets/115903567/b329778e-b986-4516-817e-23e60f690637)
 
-<br><br><br>
+<br><br>
 
-##### Commit and push the resulting change to your Github account (you can pick any commit message!)
+#### 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 <br>
-To do this I first added the file with the git add command I then checked with git status to make sure it was in 
+To do this I first added the file with the git add command I then checked with git status to make sure it was in  <br>
 
-```git add Lis<tab><enter>```
+```git add Lis<tab><enter>```<br>
 ```git status<enter>```
 
 ![image](https://github.com/weloniheu/cse15l-lab-report/assets/115903567/35936e21-79e4-4700-9ecb-885ec111384b)
