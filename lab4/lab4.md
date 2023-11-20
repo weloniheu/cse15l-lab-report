@@ -60,6 +60,9 @@ once the cursor was where I wanted i pressed r and then "replaced" the '1' in in
 then I exited with the save and quit command <br>
 
 ```:wq<enter>```
+
+![image](https://github.com/weloniheu/cse15l-lab-report/assets/115903567/4b3250d9-7984-464d-b6e2-e3c6f59c642f)
+
 <br><br>
 
 #### 8. Run the tests, demonstrating that they now succeed
