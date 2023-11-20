@@ -17,7 +17,7 @@ To do this I clicked the copy button in github for the ssh link.
 ![image](https://github.com/weloniheu/cse15l-lab-report/assets/115903567/486a988e-9545-4020-a028-3ed45d0ab12a)
 
 <br><br>
-I think pasted the ssh link into the with git clone.<br>
+I pasted the ssh link into the with git clone.<br>
 ```git clone git@github.com:weloniheu/lab7.git<enter>```
 
 ![image](https://github.com/weloniheu/cse15l-lab-report/assets/115903567/db4ab062-bcab-425b-be1e-8783eb70ada3)
