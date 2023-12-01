@@ -79,6 +79,9 @@ class StringServer {
   
 
   ![Images](fixingMyIssue.png)
+  
+
+![image](https://github.com/weloniheu/cse15l-lab-report/assets/115903567/9447c8f5-3fcf-4cb5-aa1b-221d6764ef76)
 
 
 ### PART 3
