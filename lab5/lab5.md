@@ -15,6 +15,6 @@ Student: Hello I'm having trouble with debugging the
 
 #### Part 2 – Reflection
 
-I've said it once, but I really liked learning about Vim. It seems like such a impressive tool that is able to do many different things, specifically without having to use a track pad or mouse which I've been told drastically increases the speed of the work you do which, based on my personal experiences am inclined to agree with. Although I'm still new to things in it I hope the skills I've learned from in lab/class and from friends will be of help in the future. I'm still fairly unclear on some of the things but I'm sure if I dedicate a decent amount of time, consulting the internet, friends and perhaps even chatGPT I'll get quite good at it!
+I really liked learning about Vim. It seems like such a impressive tool that is able to do many different things, specifically without having to use a track pad or mouse which I've been told drastically increases the speed of the work you do which, based on my personal experiences am inclined to agree with. Although I'm still new to things in it I hope the skills I've learned from in lab/class and from friends will be of help in the future. I'm still fairly unclear on some of the things but I'm sure if I dedicate a decent amount of time, consulting the internet, friends and perhaps even chatGPT I'll get quite good at it!
 
 
