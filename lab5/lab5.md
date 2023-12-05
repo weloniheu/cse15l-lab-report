@@ -113,9 +113,9 @@ public class FibCalc {
             System.out.print(first + ", ");
             int next = first + second;
             first = second;
-            second = next;
-            i = i + 1;
+            second = next;  
         }
+        i = i + 1;
     }
 }
   ```
