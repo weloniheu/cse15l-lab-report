@@ -101,7 +101,7 @@ Ahhh I see thank you for your time and patients. I was really struggling there a
   
  - The contents of each file before fixing the bug
 
-   #### FibCalc.java
+#### FibCalc.java
   ```
 public class FibCalc {
     public static void main(String[] args) {
@@ -119,11 +119,12 @@ public class FibCalc {
     }
 }
   ```
-  #### Fib.sh
+
+#### Fib.sh
   
-  ```
-  java FibCalc $0
-  ```
+   ```
+   java FibCalc $0
+   ```
   <br><br>
  - The full command line (or lines) you ran to trigger the bug
 
